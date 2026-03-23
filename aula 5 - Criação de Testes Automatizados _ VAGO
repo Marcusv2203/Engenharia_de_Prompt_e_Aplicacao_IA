@@ -1,0 +1,34 @@
+{
+  "test_suite": "Validação de Funções",
+  "tests": [
+    {
+      "id": 1,
+      "description": "Deve retornar a soma correta de dois números",
+      "input": {
+        "function": "somar",
+        "params": [5, 3]
+      },
+      "expected_output": 8
+    },
+    {
+      "id": 2,
+      "description": "Deve retornar erro ao receber parâmetro inválido",
+      "input": {
+        "function": "somar",
+        "params": [5, "abc"]
+      },
+      "expected_output": {
+        "error": "Parâmetro inválido"
+      }
+    },
+    {
+      "id": 3,
+      "description": "Deve retornar resultado correto para multiplicação",
+      "input": {
+        "function": "multiplicar",
+        "params": [4, 2]
+      },
+      "expected_output": 8
+    }
+  ]
+}
