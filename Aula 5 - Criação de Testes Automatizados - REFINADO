@@ -1,0 +1,20 @@
+{
+  "test_suite": "Teste da função calcular_media",
+  "tests": [
+    {
+      "id": 1,
+      "description": "Deve retornar a média correta para lista de valores positivos",
+      "code": "import unittest\nfrom modulo import calcular_media\n\nclass TestCalcularMedia(unittest.TestCase):\n    def test_lista_positiva(self):\n        self.assertEqual(calcular_media([10, 20, 30]), 20)\n\nif __name__ == '__main__':\n    unittest.main()"
+    },
+    {
+      "id": 2,
+      "description": "Deve retornar None para lista vazia",
+      "code": "import unittest\nfrom modulo import calcular_media\n\nclass TestCalcularMedia(unittest.TestCase):\n    def test_lista_vazia(self):\n        self.assertIsNone(calcular_media([]))\n\nif __name__ == '__main__':\n    unittest.main()"
+    },
+    {
+      "id": 3,
+      "description": "Deve calcular corretamente a média com valores negativos",
+      "code": "import unittest\nfrom modulo import calcular_media\n\nclass TestCalcularMedia(unittest.TestCase):\n    def test_lista_negativa(self):\n        self.assertEqual(calcular_media([-10, -20, -30]), -20)\n\nif __name__ == '__main__':\n    unittest.main()"
+    }
+  ]
+}
