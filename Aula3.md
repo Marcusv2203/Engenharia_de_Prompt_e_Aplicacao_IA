@@ -1,4 +1,7 @@
+Etapa 1
 <img width="1404" height="955" alt="image" src="https://github.com/user-attachments/assets/ee9ca85d-d442-43b9-bfdb-efca752f4477" />
+
+Etapa 3
 <img width="1591" height="860" alt="image" src="https://github.com/user-attachments/assets/add93050-31f6-4d5f-9bb6-3b3b678b650d" />
 
 A divisão de tokens influencia diretamente a resposta da IA porque o modelo não interpreta frases como humanos, mas sim como sequências de partes menores (tokens),
